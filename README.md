@@ -14,7 +14,7 @@ Which is equivalent to the next RE (regular expression) <br />
 DFA 1 -> RE 1: {(^i)chwan|lm|(dra(y|s))|khut-eigh}
 
 ## Implementation
-I followed the regular expressions as can be seen in the automata.pl file. To use the file you need to put the input of your choice using the  next format <br />
+The implementation follows the structure outlined in the automata.pl file. To use the file, input your desired test case using the following format:<br />
 
 prueba(numeberOfTheTest) :- \+<- if you want the case to be rejected aceptar <br />
 ("ichw") <- your test case, <br />
@@ -25,7 +25,7 @@ nl. <br />
 Add to the list of tests<br />
 runTests :-    prueba1, prueba2, prueba3, prueba4, prueba5, prueba6, prueba7, prueba8, prueba9, prueba10.<br />
 
-And the program should return yes if the string is accepted or no if the string is not part of the language. <br />
+And the program should return 'ACCEPTED' if the string is accepted or 'REJECTED' if the string is not part of the language. <br />
 
 some examples of inputs and outputs are:<br /> 
 ACCEPTED: ilm <br />
@@ -38,3 +38,12 @@ REJECTED: illm <br />
 REJECTED: idra <br />
 REJECTED: ikhu <br />
 REJECTED: ichw <br />
+
+## Tests
+They're included in the automata.pl file <br />
+
+## Analysis
+The complexity of the model is O(n), where n is the length of the string to be processed.
+
+
+
