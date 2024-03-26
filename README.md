@@ -1,11 +1,11 @@
 # README EVIDENCE
 ## Description
 The language i choose was the Chalkobska from the Dune Saga, my positive test cases were
--ichwan
--idray
--idras
--ikhut-eigh
--ilm
+* ichwan
+* idray
+* idras
+* ikhut-eigh
+* ilm
 
 For this approach i decided to use a DFA (Deterministic Finite Automata) which resulted in the next Automata
 ![alt text](https://github.com/elunacado/Automata/blob/main/automata.drawio(1).png) DFA 1
@@ -28,16 +28,16 @@ runTests :-    prueba1, prueba2, prueba3, prueba4, prueba5, prueba6, prueba7, pr
 And the program should return 'ACCEPTED' if the string is accepted or 'REJECTED' if the string is not part of the language. <br />
 
 some examples of inputs and outputs are:<br /> 
-ACCEPTED: ilm <br />
-ACCEPTED: ikhut-eigh <br />
-ACCEPTED: ichwan <br />
-ACCEPTED: idras <br />
-ACCEPTED: idray <br />
-REJECTED: holaMundo <br />
-REJECTED: illm <br />
-REJECTED: idra <br />
-REJECTED: ikhu <br />
-REJECTED: ichw <br />
+* ACCEPTED: ilm 
+* ACCEPTED: ikhut-eigh 
+* ACCEPTED: ichwan 
+* ACCEPTED: idras 
+* ACCEPTED: idray 
+* REJECTED: holaMundo 
+* REJECTED: illm 
+* REJECTED: idra 
+* REJECTED: ikhu 
+* REJECTED: ichw 
 
 ## Tests
 They're included in the automata.pl file <br />
