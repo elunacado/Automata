@@ -43,7 +43,14 @@ some examples of inputs and outputs are:<br />
 They're included in the automata.pl file <br />
 
 ## Analysis
-The complexity of the model is O(n), where n is the length of the string to be processed.
+The complexity of the model is O(n), where n is the length of the string to be processed. <br />
+
+And it's equivalent to the next code:
+```python
+for elemento in lista:  # Recorremos la lista una vez
+    print(elemento)
+```
+
 
 
 
