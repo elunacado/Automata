@@ -1,6 +1,8 @@
 # README EVIDENCE
 ## Description
-The language i choose was the Chalkobska from the Dune Saga, my positive test cases were
+Chalkobska is a fictional language introduced in the Dune Saga, a series of science fiction novels written by Frank Herbert. In the Dune universe, Chalkobska is spoken by certain communities or groups, and it plays a significant role in the cultural and social dynamics of the fictional universe.
+
+My positive test cases for this model were
 * ichwan
 * idray
 * idras
@@ -8,7 +10,7 @@ The language i choose was the Chalkobska from the Dune Saga, my positive test ca
 * ilm
 
 For this approach i decided to use a DFA (Deterministic Finite Automata) which resulted in the next Automata
-![alt text](https://github.com/elunacado/Automata/blob/main/automata.drawio(1).png) DFA 1
+![alt text](https://github.com/elunacado/Automata/blob/main/automata.png) DFA 1
 
 Which is equivalent to the next RE (regular expression) <br />
 DFA 1 -> RE 1: {(^i)chwan|lm|(dra(y|s))|khut-eigh}
