@@ -10,7 +10,7 @@ My positive test cases for this model were
 * ilm
 
 For this approach i decided to use a DFA (Deterministic Finite Automata) which resulted in the next Automata
-![alt text](https://github.com/elunacado/Automata/blob/main/automata.png) DFA 1
+![alt text](https://github.com/elunacado/Automata/blob/main/automata(1).png) DFA 1
 
 Which is equivalent to the next RE (regular expression) <br />
 DFA 1 -> RE 1: {(^i)chwan|lm|(dra(y|s))|khut-eigh}
