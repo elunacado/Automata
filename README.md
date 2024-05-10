@@ -45,7 +45,7 @@ some examples of inputs and outputs are:<br />
 They're included in the automata.pl file <br />
 
 ## Analysis
-The time complexity of the model is O(n), where n is the length of the string to be processed. <br />
+The time complexity of the model is O(n), where n is the length of the string to be processed and the maximum complexity it will reach is O(22n) since it's the maximum number of movements the automata can make in a single iteration which according to the O complexity chart is an acceptable solution since the time complexity will rise according to the length of the string<br />
 
 And the function to traverse the automata:
 ```prolog
@@ -62,7 +62,7 @@ move(EstadoActual, Simbolo, EstadoSiguiente) is a predicate that determines the 
 
 2. Recursion:
 aceptar_aux/2 is recursive. After determining the next state based on the current symbol, it calls itself recursively with the remaining symbols in the input string (Resto) and the newly calculated next state (EstadoSiguiente).
-        This recursion continues until there are no more symbols left in the input string (Resto is empty), or until no valid transitions are available.
+This recursion continues until there are no more symbols left in the input string (Resto is empty), or until no valid transitions are available.
 
 And it's equivalent to the next code:
 ```python
@@ -72,6 +72,7 @@ for elemento in lista:  # Recorremos la lista una vez
 
 ## Bibliography
 [1] Introduction to finite automata: https://www.geeksforgeeks.org/introduction-of-finite-automata/
+[2] Big O Notation https://codingbackside.wordpress.com/2018/06/24/big-o-notation/
 
 
 
