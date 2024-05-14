@@ -10,7 +10,7 @@ My positive test cases for this model were
 * ilm
 
 For this approach, I decided to use a DFA (Deterministic Finite Automaton) which is responsible for recognizing whether a string is accepted or not in which each input symbol triggers a transition to another state, resulting in the next state of the automata. and as explained in geeks for geeks introduction of Finite Automata "In a DFA, for a particular input character, the machine goes to one state only. A transition function is defined on every state for every input symbol. Also in DFA null (or ?) move is not allowed, i.e., DFA cannot change state without any input character." [1]
-![alt text](https://github.com/elunacado/Automata/blob/main/automata(1).png) DFA 1
+![alt text](https://github.com/elunacado/Automata/blob/main/automata(1).png)
 
 Which is equivalent to the next RE (regular expression) <br />
 DFA 1 -> RE 1: {(^i)chwan|lm|(dra(y|s))|khut-eigh}
@@ -43,6 +43,7 @@ some examples of inputs and outputs are:<br />
 
 ## Tests
 They're included in the automata.pl file <br />
+the function for running the test it is as follows: runTests()
 
 ## Analysis
 The time complexity of the model is O(n), where n is the length of the string to be processed and the maximum complexity it will reach is O(22n) since it's the maximum number of movements the automata can make in a single iteration which according to the O complexity chart is an acceptable solution since the time complexity will rise according to the length of the string<br />
@@ -65,9 +66,9 @@ aceptar_aux/2 is recursive. After determining the next state based on the curren
 This recursion continues until there are no more symbols left in the input string (Resto is empty), or until no valid transitions are available.
 
 ## Other possible solutions for the problem
-Before this hand in I thought about presenting the next automata:
+Before this hand in I thought about presenting the next DFA:
 
-![alt text](https://github.com/elunacado/Automata/blob/main/previousAutomata.png) DFA 1
+![alt text](https://github.com/elunacado/Automata/blob/main/previousAutomata.png)
 
 
 Which presented the problem of being unnecesary long, and having multiple endpoints after the feedback i choose a more minimalistic approach where i stated a single endpoint shortening the amount of states the automata is going to make and making it faster in the progress
