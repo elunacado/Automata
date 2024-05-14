@@ -67,6 +67,9 @@ This recursion continues until there are no more symbols left in the input strin
 ## Other possible solutions for the problem
 Before this hand in I thought about presenting the next automata:
 
+![alt text](https://github.com/elunacado/Automata/blob/main/previousAutomata.png) DFA 1
+
+
 Which presented the problem of being unnecesary long, and having multiple endpoints after the feedback i choose a more minimalistic approach where i stated a single endpoint shortening the amount of states the automata is going to make and making it faster in the progress
 
 ## Bibliography
