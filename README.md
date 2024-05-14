@@ -64,11 +64,10 @@ move(EstadoActual, Simbolo, EstadoSiguiente) is a predicate that determines the 
 aceptar_aux/2 is recursive. After determining the next state based on the current symbol, it calls itself recursively with the remaining symbols in the input string (Resto) and the newly calculated next state (EstadoSiguiente).
 This recursion continues until there are no more symbols left in the input string (Resto is empty), or until no valid transitions are available.
 
-And it's equivalent to the next code:
-```python
-for elemento in lista:  # Recorremos la lista una vez
-    print(elemento)
-```
+## Other possible solutions for the problem
+Before this hand in I thought about presenting the next automata:
+
+Which presented the problem of being unnecesary long, and having multiple endpoints after the feedback i choose a more minimalistic approach where i stated a single endpoint shortening the amount of states the automata is going to make and making it faster in the progress
 
 ## Bibliography
 [1] Introduction to finite automata: https://www.geeksforgeeks.org/introduction-of-finite-automata/
