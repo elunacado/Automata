@@ -74,7 +74,7 @@ Before this hand in I thought about presenting the next DFA:
 Which presented the problem of being unnecesary long, and having multiple endpoints after the feedback i choose a more minimalistic approach where i stated a single endpoint shortening the amount of states the automata is going to make and making it faster in the progress
 
 ## Bibliography
-[1] Introduction to finite automata: https://www.geeksforgeeks.org/introduction-of-finite-automata/
+[1] Introduction to finite automata: https://www.geeksforgeeks.org/introduction-of-finite-automata/ <br />
 [2] Big O Notation https://codingbackside.wordpress.com/2018/06/24/big-o-notation/
 
 
